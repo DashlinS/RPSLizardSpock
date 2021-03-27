@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+
+main{
+  /* border: 1px solid black; */
+  background: url(../img/bigbang1.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.outerBox {
+  border: 5px solid rgb(143, 143, 20);
+  width: 70%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(../img/bazinga.jpg) no-repeat top;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+
+#player-hand{
+  color: rgb(238, 223, 13);
+  font-family: 'Chango', cursive;
+  height: 60px;
+}
+
+#bot-hand{
+  color: rgb(251, 120, 68);
+  font-family: 'Chango', cursive;
+  height: 60px;
+}
+
+.buttons{
+  margin-top: 5em;
+  display: flex;
+}
+
+img {
+  width: 200px;
+}
+
+button:focus{
+  outline:none;
+}
+
+.animated-button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none !important;
+  transition: transform 250ms;
+  transition-timing-function: ease-out;
+}
+
+.animated-button:hover {
+transform: translateY(-20px);
+}
+
+#result {
+  padding: 5px;
+  font-size: 3rem;
+  color: yellow;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
+
+.sheldon, .leonard {
+  width: 300px;
+}
+
+.sheldonSpot{
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+} 
+
+.leonardSpot {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
